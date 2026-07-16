@@ -1,0 +1,127 @@
+.card {
+    width: 262px;
+    height: 400px;
+    background: #FFFF;
+
+}
+.image-container {
+
+}
+.card-content {
+    background-color: #007E3F;
+    border: 1px solid #007E3F;
+    color: #C1FFCB;
+    border-radius: 9999px;
+    width:88px;
+    height:24px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 12px;
+
+}
+.block-text {
+    color: #8127CF;
+    font-size: 14px;
+}
+.title {
+    color:#191C1E;
+    line-height: 32px;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.container {
+    display:flex;
+    width: 222px;
+    height:20px;
+    border: 1px solid transparent;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 16px;
+}
+.card-image {
+    width: 262px;
+    height: 262px;
+    border-radius: 8px;
+}
+.box {
+    display:flex;
+    align-items: center;
+    gap:8px;
+}
+.place-box {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+.block {
+    padding: 16px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card2 {
+    width:1120px;
+    height:409px;
+    border-radius: 32px;
+    background: linear-gradient(#0040DF,#8127CF );
+    padding:80px 40px;
+    display: flex;
+    margin-bottom: 48px;
+    margin-left: auto;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+.title2 {
+    color:#FFFF;
+    font-size: 48px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+.subheading {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 23px;
+    margin-top: 32px;
+    
+}
+.form-input {
+    background-color: rgba(255, 255, 255, 0.3);
+    color:rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 320px;
+    height: 57px;
+    text-align: left;
+    align-items: center;
+    padding: 16 16;
+    margin-top: 32px;
+}
+.btn {
+    width: 145px;
+    height: 48px;
+    background: #FFFFFF;
+    color: #0040DF;
+    border: none;
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    padding: 16 16;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.form-group {
+    display:flex;
+    align-items: center;
+    gap:16px;
+    justify-content: center;
+    margin-top: 32px;
+}
